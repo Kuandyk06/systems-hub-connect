@@ -34,24 +34,24 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Телефон",
-      value: "+7 (XXX) XXX-XX-XX",
-      href: "tel:+7XXXXXXXXXX"
+      value: "8 776 005 66 06",
+      href: "tel:+77760056606"
     },
     {
       icon: Mail,
       label: "Email",
-      value: "support@systemshub.ru",
-      href: "mailto:support@systemshub.ru"
+      value: "info@systemshub.kz",
+      href: "mailto:info@systemshub.kz"
     },
     {
       icon: Clock,
       label: "Режим работы",
-      value: "Пн-Вс: 9:00 - 21:00"
+      value: "Тех. поддержка 24/7"
     },
     {
       icon: MapPin,
       label: "Адрес",
-      value: "Выезд по всему городу"
+      value: "г. Атырау, Азаттык 71"
     }
   ];
 
