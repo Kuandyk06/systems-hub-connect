@@ -31,6 +31,11 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
+            <a href="/auth">
+              <Button variant="outline" className="mr-2">
+                Личный кабинет
+              </Button>
+            </a>
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
               Связаться с нами
             </Button>
@@ -59,6 +64,11 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
+              <a href="/auth" className="w-full">
+                <Button variant="outline" className="w-full mb-2">
+                  Личный кабинет
+                </Button>
+              </a>
               <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
                 Связаться с нами
               </Button>
